@@ -20,7 +20,6 @@ export default function LoginEmailNumber() {
                 <p>Email or Phone number</p>
                 <input value={emailNumber} onChange={(e) => setEmailNumber(e.target.value)} type="text" id="email" name="email" placeholder="Enter your email or phone number" />
                 <button onClick={emailNumberVerification}>Submit</button>
-
             </div>
         </div>
     )
